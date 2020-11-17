@@ -93,6 +93,10 @@ https://www.gov.uk/government/publications/open-standards-for-government/identif
 #### Conceptual/Schema Standards
 
 Point data - https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point
+
+Simple Features
+WKT
+WKB
  
 #### Syntax/Encoding Standards
 
@@ -152,8 +156,11 @@ Many specific GML schemas, from INSPIRE and domain communities (Geo-science, hyd
 Other specific XML encodings:
 GPX, for transfer of waypoints, tracks, and routes. Commonly used to/from GPS devices
 OGC KML, concentrating on the graphical representation of (2D) geometry.
+
 Known issues
+
 Complexity
+
 GML is a large & complex standard; there are probably no implementations which make use of it all – or need to. This means there are a range of domain specific subsets, which may make different implementation choices, and therefore involve data which may not be easily used outside that domain.
 For example, underground geology is naturally three dimensional; the geology community has software which can cope with their three-dimensional objects. But may not cope with those shared within the meteorology community.
 The OGC simple features profile was developed to address this issue and works well where appropriate – but not all features are ‘simple’.
@@ -169,6 +176,7 @@ External work / discussions in progress
 TC211 catch up
 OGC has GML 3.2.1, which is a corrigendum allowing gml:id on LinearRing. This is ISO/DIS 19136-1, expected to be published in early 2019.
 
+##### GeoPackage (Spatialite)
 
 #### Interactive Web Services/API's Standards
 
@@ -211,6 +219,8 @@ May be raster data such as saterllite imagery but may be a map made of vector da
 #### Conceptual/Schema Standards
 
 #### Syntax/Encoding Standards
+
+GeoTIFF – TIFF variant enriched with GIS relevant metadata
 
 OGC SLD - Styling
 
