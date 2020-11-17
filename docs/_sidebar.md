@@ -1,5 +1,5 @@
 
-- [User Guide](README)
+- [National Geographic Information Standards](README)
 
 ---
 
