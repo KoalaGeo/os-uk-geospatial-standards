@@ -8,27 +8,6 @@ GC requested change: add ", with a prioritised action plan" (not formally agreed
  
 Later GC conversation, towards PSGA Standards Plan 2021 forward centred around GC publishing the 2018 report lists and asking for comment, while OS focussed on defining "what good looks like" for the Standards Pillar in a UNGGIM IGIF style national Location Data Framework.
 
-```mermaid
-graph LR
-    A --- B
-    B-->C[fa:fa-ban forbidden]
-    B-->D(fa:fa-spinner);
-```
-
-```mermaid
-sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts <br/>prevail!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
-```
-
 
 ## Introduction
 
