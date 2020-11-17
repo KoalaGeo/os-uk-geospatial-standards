@@ -8,6 +8,28 @@ GC requested change: add ", with a prioritised action plan" (not formally agreed
  
 Later GC conversation, towards PSGA Standards Plan 2021 forward centred around GC publishing the 2018 report lists and asking for comment, while OS focussed on defining "what good looks like" for the Standards Pillar in a UNGGIM IGIF style national Location Data Framework.
 
+```mermaid
+graph LR
+    A --- B
+    B-->C[fa:fa-ban forbidden]
+    B-->D(fa:fa-spinner);
+```
+
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
+
+
 ## Introduction
 
 https://www.gov.uk/government/collections/open-standards-for-government-data-and-technology
@@ -28,7 +50,7 @@ Leaving the European Union provides both opportunity and threat in this area: th
 
 This work has started informally, under the auspices of the AGI, with just a single workshop facilitated by OS, involving the Geo6 organisations, plus Defra, Met Office, Ministry of Defence, Office of National Statistics, and OGC. 
 
-Note: in this context at least, the definition of ‘standard’ includes the INSPIRE specifications and technical guidelines – which are maintained by consensus, and available free of charge to reuse. This technical work is independent of which UK body has the ‘policy lead’ for INSPIRE – this is currently Defra, supported by the devolved administrations, particularly the Scottish Government. 
+> Note: in this context at least, the definition of ‘standard’ includes the INSPIRE specifications and technical guidelines – which are maintained by consensus, and available free of charge to reuse. This technical work is independent of which UK body has the ‘policy lead’ for INSPIRE – this is currently Defra, supported by the devolved administrations, particularly the Scottish Government. 
 
 Scope and approach 
 
