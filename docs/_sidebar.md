@@ -1,10 +1,5 @@
 
-- [User Guide](main-content/userguide)
-
----
-
-- [FAQ](other/faq.md)
-- [Changelog](other/changelog.md)
+- [User Guide](README)
 
 ---
 
